@@ -1,0 +1,35 @@
+// Handler function for "Style Drop"
+var styleDrop = function(context) {
+  var selection = context.selection;
+  var doc = context.document;
+  coscript.setShouldKeepAround(true);
+
+  if (selection.count() < 1){
+    doc.showMessage("StyleDrop: First select the layer you want to drop styles to.");
+  	return;
+  } else {
+  	var tryCount = 20;
+  	var pasteLayer = selection[0];
+  	var pasteLayerID = pasteLayer.objectID();
+
+  	doc.showMessage("StyleDrop: Select the layer to copy styles from.");
+
+  	coscript.scheduleWithRepeatingInterval_jsFunction(0.25,function(cinterval) {
+  		var copyLayerID = doc.selectedLayers()[0].objectID();
+
+  		if (copyLayerID != pasteLayerID) {
+  			doc.copyStyle(nil);
+  			pasteLayer.select_byExpandingSelection(true, false)
+  			doc.pasteStyle(nil);
+  			doc.showMessage("StyleDropped!");
+  			cinterval.cancel();
+  		} else if (tryCount == 0) {
+  			doc.showMessage("StyleDrop: Success didn't happen. You gotta select another layer to copy from." );
+  			cinterval.cancel();
+  		} else {
+  			// doc.showMessage("StyleDrop: Select the layer to drop styles to. Try: " + tryCount);
+  			tryCount--;
+  		}
+  	});
+  }
+};

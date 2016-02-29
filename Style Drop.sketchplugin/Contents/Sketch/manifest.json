@@ -1,0 +1,22 @@
+{
+  "author" : "Ryan Mack",
+  "commands" : [
+    {
+      "script" : "script.cocoascript",
+      "handler" : "styleDrop",
+      "shortcut" : "ctrl i",
+      "name" : "Style Drop",
+      "identifier" : "styleDrop"
+    }
+  ],
+  "menu": {
+    "items": [
+      "styleDrop"
+    ]
+  },
+  "identifier" : "com.example.sketch.styledrop",
+  "version" : "1.0",
+  "description" : "A plugin that copies layer styles from one layer to another.",
+  "authorEmail" : "mclaughlinry@gmail.com",
+  "name" : "Style Drop"
+}
