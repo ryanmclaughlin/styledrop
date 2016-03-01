@@ -14,3 +14,7 @@ This plugin for [Sketch][] allows you to easily copy styles from one layer to an
 3. Select the layer you want to copy styles from.
 
 [Sketch]: http://bohemiancoding.com/sketch/
+
+### Installation
+1. Download and unzip Style Drop Sketch Plugin.
+2. Double click `Style Drop.sketchplugin` for auto installation.
