@@ -14,7 +14,7 @@
       "styleDrop"
     ]
   },
-  "identifier" : "com.example.sketch.styledrop",
+  "identifier" : "io.mack.sketch.style-drop",
   "version" : "1.0",
   "description" : "A plugin that copies layer styles from one layer to another.",
   "authorEmail" : "mclaughlinry@gmail.com",
