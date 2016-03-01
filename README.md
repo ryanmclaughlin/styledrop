@@ -4,7 +4,7 @@
 
 This plugin for [Sketch][] allows you to easily copy styles from one layer to another. If you're familiar with Adobe Illustrator, it's similar to the Eye Dropper tool.
 
-![Animated GIF of Style Drop in action.](http://ryanmclaughlin.s3-us-west-2.amazonaws.com/share/share/UP4VSJpGUX/sketch_styledrop2.gif)
+![Animated GIF of Style Drop in action.](http://ryanmclaughlin.s3-us-west-2.amazonaws.com/share/share/4uXpXAyYFY/sketch_styledrop3.gif)
 
 ![Control + I](http://ryanmclaughlin.s3-us-west-2.amazonaws.com/share/share/tvkon5kQGt/StyleDrop_Keyboard.svg)
 
