@@ -1,4 +1,4 @@
-# Style Drop
+# Style Drop Sketch Plugin
 
 <img src="http://ryanmclaughlin.s3-us-west-2.amazonaws.com/share/share/a2QWOFNYmq/StyleDrop.svg" width="225" height="64" />
 
