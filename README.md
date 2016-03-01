@@ -8,13 +8,15 @@ This plugin for [Sketch][] allows you to easily copy styles from one layer to an
 
 ![Control + I](http://ryanmclaughlin.s3-us-west-2.amazonaws.com/share/share/tvkon5kQGt/StyleDrop_Keyboard.svg)
 
-### How to use it
+<br/><br/>
+
+## How to use it
 1. Select the layer you want to paste styles to.
 2. Press `ctrl` + `i`
 3. Select the layer you want to copy styles from.
 
 [Sketch]: http://bohemiancoding.com/sketch/
 
-### Installation
+## Installation
 1. Download and unzip Style Drop Sketch Plugin.
 2. Double click `Style Drop.sketchplugin` for auto installation.
