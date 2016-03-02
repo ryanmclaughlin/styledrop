@@ -1,16 +1,14 @@
 <p align="center">
-  <img align="center" src="http://ryanmclaughlin.s3-us-west-2.amazonaws.com/share/share/5HQMKAxkrN/StyleDrop.png" />
+  <img alt="Style Drop Plugin for Sketch App. Press and hold Control key and the I key. " src="http://ryanmclaughlin.s3-us-west-2.amazonaws.com/share/share/HQUjM6SorL/StyleDropLarge.png" />
 </p>
 
 <br/>
 
-# Style Drop (Sketch Plugin)
+# Style Drop
 
 This plugin for [Sketch][] allows you to easily copy styles from one layer to another. If you're familiar with Adobe Illustrator, it's similar to the Eye Dropper tool.
 
 ![Animated GIF of Style Drop in action.](http://ryanmclaughlin.s3-us-west-2.amazonaws.com/share/share/4uXpXAyYFY/sketch_styledrop3.gif)
-
-![Control + I](http://ryanmclaughlin.s3-us-west-2.amazonaws.com/share/share/sQ9hT8zbEh/StyleDrop_Keyboard.svg)
 
 <br/><br/>
 
@@ -29,3 +27,15 @@ This plugin for [Sketch][] allows you to easily copy styles from one layer to an
 ##### Manual
 1. Download and unzip Style Drop Sketch Plugin.
 2. Double click `Style Drop.sketchplugin` for auto installation.
+
+### Known Issues
+1. Because of Sketch some limitations (no event-tracking, yet), there plugin uses a timer method. So you have about 5 seconds to choose the next plugin.
+
+### TODO:
+- [ ] Multiple layer support
+
+***
+
+Made by <a href="http://ryanmack.me">Ryan Mack</a>. <a href="http://twitter.com/_ryanmack">@_ryanmack</a> | <a href="http://dribbble.com/ryanmclaughlin">Dribbble</a>
+
+
