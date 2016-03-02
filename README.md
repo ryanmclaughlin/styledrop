@@ -1,6 +1,10 @@
-# Style Drop Sketch Plugin
+<p align="center">
+  <img align="center" src="http://ryanmclaughlin.s3-us-west-2.amazonaws.com/share/share/Fyz2auejo5/StyleDrop.png" />
+</p>
 
-<img src="http://ryanmclaughlin.s3-us-west-2.amazonaws.com/share/share/cJiR0S9gNR/StyleDrop-2x.png" width="238" />
+<br/>
+
+# Style Drop (Sketch Plugin)
 
 This plugin for [Sketch][] allows you to easily copy styles from one layer to another. If you're familiar with Adobe Illustrator, it's similar to the Eye Dropper tool.
 
@@ -10,13 +14,18 @@ This plugin for [Sketch][] allows you to easily copy styles from one layer to an
 
 <br/><br/>
 
-## How to use it
+### How to use it
 1. Select the layer you want to paste styles to.
 2. Press `ctrl` + `i`
 3. Select the layer you want to copy styles from.
 
 [Sketch]: http://bohemiancoding.com/sketch/
 
-## Installation
+### Installation
+
+#### Sketch Toolbox
+1. Install with ![Sketch Toolbox](sketchtoolbox.com)
+
+#### Manual
 1. Download and unzip Style Drop Sketch Plugin.
 2. Double click `Style Drop.sketchplugin` for auto installation.
