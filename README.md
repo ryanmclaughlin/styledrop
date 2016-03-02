@@ -23,9 +23,9 @@ This plugin for [Sketch][] allows you to easily copy styles from one layer to an
 
 ### Installation
 
-#### Sketch Toolbox
-1. Install with ![Sketch Toolbox](sketchtoolbox.com)
+##### Sketch Toolbox
+1. Install with [Sketch Toolbox](sketchtoolbox.com)
 
-#### Manual
+##### Manual
 1. Download and unzip Style Drop Sketch Plugin.
 2. Double click `Style Drop.sketchplugin` for auto installation.
