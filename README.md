@@ -1,5 +1,5 @@
 <p align="center">
-  <img align="center" src="http://ryanmclaughlin.s3-us-west-2.amazonaws.com/share/share/Fyz2auejo5/StyleDrop.png" />
+  <img align="center" src="http://ryanmclaughlin.s3-us-west-2.amazonaws.com/share/share/5HQMKAxkrN/StyleDrop.png" />
 </p>
 
 <br/>
@@ -10,7 +10,7 @@ This plugin for [Sketch][] allows you to easily copy styles from one layer to an
 
 ![Animated GIF of Style Drop in action.](http://ryanmclaughlin.s3-us-west-2.amazonaws.com/share/share/4uXpXAyYFY/sketch_styledrop3.gif)
 
-![Control + I](http://ryanmclaughlin.s3-us-west-2.amazonaws.com/share/share/tvkon5kQGt/StyleDrop_Keyboard.svg)
+![Control + I](http://ryanmclaughlin.s3-us-west-2.amazonaws.com/share/share/sQ9hT8zbEh/StyleDrop_Keyboard.svg)
 
 <br/><br/>
 
