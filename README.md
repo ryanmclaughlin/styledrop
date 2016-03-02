@@ -29,7 +29,7 @@ This plugin for [Sketch][] allows you to easily copy styles from one layer to an
 2. Double click `Style Drop.sketchplugin` for auto installation.
 
 ### Known Issues
-1. Because of Sketch some limitations (no event-tracking, yet), there plugin uses a timer method. So you have about 5 seconds to choose the next plugin.
+1. Because of Sketch some limitations (no event-tracking, yet), this plugin uses a timer method. So you have about 5 seconds to select the layer.
 
 ### TODO:
 - [ ] Multiple layer support
