@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="Style Drop Plugin for Sketch App. Press and hold Control key and the I key. " src="http://ryanmclaughlin.s3-us-west-2.amazonaws.com/share/share/HQUjM6SorL/StyleDropLarge.png" />
+  <img alt="Style Drop Plugin for Sketch App. Press and hold Control key and the I key. " src="http://ryanmclaughlin.s3-us-west-2.amazonaws.com/share/share/8VFHbLUuF5/StyleDropLarge.png" width="800" height="450" />
 </p>
 
 <br/>
