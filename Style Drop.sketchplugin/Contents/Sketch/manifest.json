@@ -1,5 +1,11 @@
 {
+  "name" : "Style Drop",
+  "description" : "A plugin that copies layer styles from one layer to another.",
   "author" : "Ryan Mack",
+  "identifier" : "io.mack.sketch.style-drop",
+  "homepage": "https://github.com/ryanmclaughlin/styledrop",
+  "version" : "1.0.1",
+  "authorEmail" : "mclaughlinry@gmail.com",
   "commands" : [
     {
       "script" : "script.cocoascript",
@@ -14,9 +20,4 @@
       "styleDrop"
     ]
   },
-  "identifier" : "io.mack.sketch.style-drop",
-  "version" : "1.0",
-  "description" : "A plugin that copies layer styles from one layer to another.",
-  "authorEmail" : "mclaughlinry@gmail.com",
-  "name" : "Style Drop"
 }

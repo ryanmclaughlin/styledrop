@@ -9,13 +9,13 @@ var styleDrop = function(context) {
   	return;
   } else {
   	var tryCount = 20;
-  	var pasteLayer = selection[0];
+  	var pasteLayer = context.document.selectedLayers().firstLayer();
   	var pasteLayerID = pasteLayer.objectID();
 
   	doc.showMessage("Style Drop: Select the layer to copy styles from.");
 
   	coscript.scheduleWithRepeatingInterval_jsFunction(0.25,function(cinterval) {
-  		var copyLayerID = doc.selectedLayers()[0].objectID();
+  		var copyLayerID = context.document.selectedLayers().firstLayer().objectID();
 
   		if (copyLayerID != pasteLayerID) {
   			doc.copyStyle(nil);
