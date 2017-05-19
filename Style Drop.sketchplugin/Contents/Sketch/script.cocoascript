@@ -2,6 +2,8 @@
 var styleDrop = function(context) {
   var selection = context.selection;
   var doc = context.document;
+  var copyStyleAction = doc.actionsController().actionForID("MSCopyStyleAction");
+  var pasteStyleAction = doc.actionsController().actionForID("MSPasteStyleAction");
   coscript.setShouldKeepAround(true);
 
   if (selection.count() < 1){
@@ -18,9 +20,16 @@ var styleDrop = function(context) {
   		var copyLayerID = context.document.selectedLayers().firstLayer().objectID();
 
   		if (copyLayerID != pasteLayerID) {
-  			doc.copyStyle(nil);
+        if(copyStyleAction.validate()) {
+          copyStyleAction.performAction(null);
+        }
+
   			pasteLayer.select_byExpandingSelection(true, false)
-  			doc.pasteStyle(nil);
+
+        if(copyStyleAction.validate()) {
+          pasteStyleAction.performAction(null);
+        }
+
   			doc.showMessage("Style Dropped.");
   			cinterval.cancel();
   		} else if (tryCount == 0) {

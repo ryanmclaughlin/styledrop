@@ -4,7 +4,7 @@
   "author" : "Ryan Mack",
   "identifier" : "io.mack.sketch.style-drop",
   "homepage": "https://github.com/ryanmclaughlin/styledrop",
-  "version" : "1.0.1",
+  "version" : "1.0.2",
   "authorEmail" : "mclaughlinry@gmail.com",
   "commands" : [
     {
