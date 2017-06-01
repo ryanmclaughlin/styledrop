@@ -3,6 +3,7 @@
   "description" : "A plugin that copies layer styles from one layer to another.",
   "author" : "Ryan Mack",
   "identifier" : "io.mack.sketch.style-drop",
+  "appcast": "https://api.sketchpacks.com/v1/plugins/io.mack.sketch.style-drop/appcast",
   "homepage": "https://github.com/ryanmclaughlin/styledrop",
   "version" : "1.0.2",
   "authorEmail" : "mclaughlinry@gmail.com",
