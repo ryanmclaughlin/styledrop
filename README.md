@@ -5,6 +5,7 @@
 <br/>
 
 # Style Drop
+[![Download from Sketchpacks.com](https://badges.sketchpacks.com/plugins/io.mack.sketch.style-drop/version.svg)](https://api.sketchpacks.com/v1/plugins/io.mack.sketch.style-drop/download) [![Compatible Sketch Version](https://badges.sketchpacks.com/plugins/io.mack.sketch.style-drop/compatibility.svg)](https://sketchpacks.com/ryanmclaughlin/styledrop)
 
 This plugin for [Sketch][] allows you to easily copy styles from one layer to another. If you're familiar with Adobe Illustrator, it's similar to the Eye Dropper tool.
 
